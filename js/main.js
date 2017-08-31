@@ -1,4 +1,4 @@
-$(document).on('click', 'a', function(event){
+$(document).on('click', '.shortcut', function(event){
     event.preventDefault();
 
     $('html, body').animate({
