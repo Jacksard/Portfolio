@@ -95,6 +95,7 @@ h4 {
 .projects{
     margin-top:40px;
     color:white;
+    
 }
 
 #project-title{
@@ -237,5 +238,28 @@ a:link {
     }
     .con{
         margin-right:30px;
+    }
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
     }
 }
